@@ -199,6 +199,7 @@ for version in keep_version:
             '--enable-version3',
             '--enable-libbluray',
             '--enable-libzmq',
+            '--enable-indev=v4l2',
             '--extra-libs=-ldl',
             '--prefix="${PREFIX}"',
         ]
